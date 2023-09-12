@@ -1,0 +1,5 @@
+useEffect(() => {
+  document.body.onclick = () => {
+    console.log(counter);
+  };
+}, []);
